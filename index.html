@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | DQA's Cat Clinic</title>
+    <style>
+        /* CSS yang dikongsi */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+        header {
+            background: #ffb6c1;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            color: #fff;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #333;
+        }
+        .hero {
+            background:url('https://sumbarfokus.com/wp-content/uploads/2025/01/EVERGREEN-9.png') center/cover no-repeat;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        .hero h2 {
+            font-size: 48px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+        }
+        .hero p {
+            margin: 15px 0;
+            font-size: 20px;
+        }
+        .hero button {
+            padding: 12px 25px;
+            font-size: 18px;
+            background: #ff69b4;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .hero button:hover {
+            background: #ff1493;
+            transform: scale(1.05);
+        }
+        .services {
+            padding: 50px 30px;
+            text-align: center;
+        }
+        .services h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+            color: #444;
+        }
+        .service-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .card {
+            background: #fff0f5;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            margin-bottom: 10px;
+            color: #ff1493;
+        }
+        footer {
+            background: #ffb6c1;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🐾 DQA's Paws Cat Clinic</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero"> 
+        <h2>We Care for Your Cats</h2>
+		<p>Compassionate veterinary care for every feline friend 🐱</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Vaccination</h3>
+                <p>Keep your cat healthy with regular vaccinations.</p>
+            </div>
+            <div class="card">
+                <h3>Checkups</h3>
+                <p>Comprehensive health checkups for your feline.</p>
+            </div>
+            <div class="card">
+                <h3>Grooming</h3>
+                <p>Professional grooming to keep your cat clean & happy.</p>
+            </div>
+            <div class="card">
+                <h3>Adoption</h3>
+                <p>Find a new furry friend or give a cat a loving home.</p>
+            </div>
+            
